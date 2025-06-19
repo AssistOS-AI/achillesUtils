@@ -1,0 +1,29 @@
+{
+    "name": "achilles-utils",
+    "version": "1.0.0",
+    "description": "Utility package containing base58 encoding/decoding functions",
+    "main": "base58.js",
+    "browser": "base58-browser.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "base58",
+        "encoding",
+        "decoding",
+        "utilities",
+        "crypto"
+    ],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "files": [
+        "base58.js",
+        "base58-node.js",
+        "base58-browser.js",
+        "README.md"
+    ]
+}
